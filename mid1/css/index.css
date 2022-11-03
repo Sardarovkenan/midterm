@@ -1,0 +1,87 @@
+body{
+    padding: 0px;
+    margin: 0px autos;
+}
+.main{
+    width: 100%;
+    background-image: url(../img/bunner.png);
+    background-size:cover ;
+    height: 1000px;
+    background-repeat: no-repeat;
+
+}
+.navbar{
+    width: 100% ;
+    min-height: 170px;
+    float: left;
+    background-color:transparent;
+}
+.logo{
+    width: 20%;
+    min-height:inherit;
+    float: left;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.menu{
+
+    width: 60%;
+    min-height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+
+
+    
+}
+.menu ul{
+    padding: 0px;
+    margin:0px ;
+    float: left;
+    padding-right: 90px;
+
+
+}
+  
+.menu ul li{
+    float: left;
+    list-style-type: none;
+    padding: 10px 0px;
+    margin: 0px 15px;
+    
+    
+}
+.country{
+    width: 20%;
+    float: right;
+    min-height: 80px;
+    padding: 0px 0px;
+    background-color: rgb(0, 0, 98);
+    
+
+}
+.country span{
+    float: left;
+    padding-top: 18px;
+   padding-left: 10px;
+    color: white;
+
+    
+    font-weight: 600;
+    font-family:'Zilla Slab';
+}
+.line{
+
+    border-bottom:2px solid gray;
+
+
+
+}
+
+.icon{
+
+
+}
